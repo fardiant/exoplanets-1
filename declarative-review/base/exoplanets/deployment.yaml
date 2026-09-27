@@ -34,7 +34,7 @@ spec:
                 name: db-config
             - secretRef:
                 name: db-secrets
-          image: docker.io/calvarado2004/exoplanets
+          image: docker.io/calvarado2004/exoplanet
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
